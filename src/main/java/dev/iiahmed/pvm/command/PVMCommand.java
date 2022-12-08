@@ -35,6 +35,9 @@ public class PVMCommand implements TabExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if(sender.hasPermission("pvm.admin")) {
+            return true;
+        }
         String helpMessage =
                 "§f==============================\n" +
                 "§f/pvm §breload\n" +

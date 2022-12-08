@@ -10,6 +10,8 @@ This project is designed to support 1.8 - 1.19.3 without problems
 
 ### /PVM
 
+#### Permission: pvm.admin
+
 ###### Reload
 ```reloads the plugin's config```
 
