@@ -1,0 +1,8 @@
+name: PVM
+version: '${project.version}'
+main: dev.iiahmed.pvm.PVM
+authors: [ iiAhmedYT ]
+description: Projectile Velocity Multiplier
+commands:
+  PVM:
+    description: the main PVM command
